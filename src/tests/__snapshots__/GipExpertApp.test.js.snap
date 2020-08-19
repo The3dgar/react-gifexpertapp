@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <GipExpertApp></GipExpertApp> should render GifGridItem 1`] = `
+<div>
+  <h2>
+    GipExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol />
+</div>
+`;
+
+exports[`pruebas en <GipExpertApp></GipExpertApp> should render una lista de categorias 1`] = `
+<div>
+  <h2>
+    GipExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GifGrid
+      category="One Punch"
+      key="One Punch"
+    />
+    <GifGrid
+      category="Friends"
+      key="Friends"
+    />
+  </ol>
+</div>
+`;
